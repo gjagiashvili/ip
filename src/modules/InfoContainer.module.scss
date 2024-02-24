@@ -1,0 +1,32 @@
+.info-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  margin-bottom: -60px;
+  max-width: 100vw;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.label {
+  font-size: 1.2em;
+}
+
+.info-value {
+  color: #555;
+}
